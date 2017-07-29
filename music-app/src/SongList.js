@@ -1,14 +1,10 @@
 import React from 'react'
-import Song from './Song'
 
-const SongList = () => {
-  return (
-    <div>
-      <Song title="Waited For" artist="Mae Capozzi"/>
-      <Song title="East Coast" artist="Mae Capozzi"/>
-      <Song title="Future" artist="Mae Capozzi"/>
-    </div>
-  )
-}
+const SongList = props =>
+  <ul>
+    {props.songs.map(s => (
+      <li key={s.id}>{s.title}</li>
+    ))}
+  </ul>
 
 export default SongList

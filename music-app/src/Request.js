@@ -15,6 +15,7 @@ class Request extends React.Component {
   	axios.get(`http://localhost:3001/songs`)
     	.then(response => {
 				const songs = []
+        console.log({response.data})
 				response.data.forEach(function(song) {
 					songs.push(song)
 				})
