@@ -1,0 +1,15 @@
+{
+  "songs": [
+    { "id": 1, "title": "Waited For", "artistId": 1 },
+    { "id": 2, "title": "East Coast", "artistId": 1 },
+    { "id": 3, "title": "Future", "artistId": 1 },
+    { "id": 4, "title": "Brookyln Bridge", "artistId": 1 },
+    { "id": 5, "title": "Sprained Ankle", "artistId": 2 },
+    { "id": 6, "title": "Anthony", "artistId": 3 }
+  ],
+  "artists": [
+    { "id": 1, "name": "Mae Capozzi"},
+    { "id": 2, "name": "Julien Baker"},
+    { "id": 3, "name": "Margaret Glaspy"}
+  ]
+}
