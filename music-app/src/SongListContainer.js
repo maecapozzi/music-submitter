@@ -7,17 +7,17 @@ class SongListContainer extends React.Component {
 
   componentDidMount() {
     axios.get(`http://localhost:3001/songs`)
-    	.then(response => {
-				const songs = []
-				response.data.map(song => {
-          return songs.push(song)
-        })
-				this.setState({songs})
-			})
-			.catch(error => {
-    		console.log(error)
-  		})
-    }
+  	.then(response => {
+			const songs = []
+			response.data.map(song => {
+        return songs.push(song)
+      })
+			this.setState({songs})
+		})
+		.catch(error => {
+  		console.log(error)
+		})
+  }
   render() {
     return <SongList songs={this.state.songs} />
   }
