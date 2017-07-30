@@ -8,3 +8,11 @@
   padding: 20px;
   color: white;
 }
+
+a, a:visited {
+  color: blue;
+}
+
+a.active {
+  color: red;
+}
