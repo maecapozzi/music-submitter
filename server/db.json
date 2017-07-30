@@ -7,7 +7,7 @@
     { "id": 5, "title": "Sprained Ankle", "artistId": 2 },
     { "id": 6, "title": "Anthony", "artistId": 3 }
   ],
-  "artists": [
+  "users": [
     { "id": 1, "name": "Mae Capozzi"},
     { "id": 2, "name": "Julien Baker"},
     { "id": 3, "name": "Margaret Glaspy"}
