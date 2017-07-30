@@ -14,10 +14,10 @@ class UserProfileContainer extends React.Component {
     .then(response => {
       const user = response.data[0]
       this.setState({id: user.id, name: user.name })
-		})
-		.catch(error => {
+    })
+    .catch(error => {
     	console.log(error)
-  	})
+    })
   }
   render() {
     return <UserProfile name={this.state.name}/>
@@ -25,7 +25,3 @@ class UserProfileContainer extends React.Component {
 }
 
 export default UserProfileContainer
-
-
-//I want to be able to go to my user's profile.
-// I want to pull all of that user's data and display it on the profile.
