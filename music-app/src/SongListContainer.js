@@ -17,7 +17,7 @@ class SongListContainer extends React.Component {
 			.catch(error => {
     		console.log(error)
   		})
-  }
+    }
   render() {
     return <SongList songs={this.state.songs} />
   }
