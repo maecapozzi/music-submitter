@@ -1,6 +1,6 @@
 import React from 'react'
 
-const UserProfile = props => {
+const User = props => {
   return (
     <div>
       <p>{props.name}</p>
@@ -8,4 +8,4 @@ const UserProfile = props => {
   )
 }
 
-export default UserProfile
+export default User

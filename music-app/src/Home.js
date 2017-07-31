@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Home = props => {
-  console.log(props)
+const Home = () => {
   return <p>Home</p>
 }
 

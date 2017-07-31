@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {Component} from 'react'
 import axios from 'axios'
-import UserProfile from './UserProfile'
+import Profile from './Profile'
 
-class UserProfileContainer extends React.Component {
-  state = {}
+class ProfileContainer extends Component {
+  state = {
+    id: "",
+    name: ""
+  }
 
   componentDidMount() {
     axios.get('http://localhost:3001/users', {
@@ -19,9 +22,10 @@ class UserProfileContainer extends React.Component {
     	console.log(error)
     })
   }
+
   render() {
-    return <UserProfile name={this.state.name}/>
+    return <Profile name={this.state.name} />
   }
 }
 
-export default UserProfileContainer
+export default ProfileContainer
