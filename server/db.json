@@ -8,13 +8,13 @@
         { "id": 1, "title": "Waited For", "artistId": 1 },
         { "id": 2, "title": "East Coast", "artistId": 1 },
         { "id": 3, "title": "Future", "artistId": 1 },
-        { "id": 4, "title": "Brookyln Bridge", "artistId": 1 },
+        { "id": 4, "title": "Brookyln Bridge", "artistId": 1 }
       ]
     },
     { "id": 2,
       "name": "Julien Baker",
       "songs": [
-        { "id": 5, "title": "Sprained Ankle", "artistId": 2 },
+        { "id": 5, "title": "Sprained Ankle", "artistId": 2 }
       ]
     },
     { "id": 3,
