@@ -23,7 +23,7 @@ class UserContainer extends Component {
     })
   }
   render() {
-    return <User name={this.state.name}/>
+    return <User name={this.state.name} />
   }
 }
 

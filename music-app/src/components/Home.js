@@ -1,7 +1,9 @@
 import React from 'react'
 
 const Home = () => {
-  return <p>Home</p>
+  return (
+    <h1>Welcome to Music Submitter</h1>
+  )
 }
 
 export default Home
